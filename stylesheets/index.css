@@ -1,10 +1,15 @@
 body {
   /*color: #e8fcf1;*/
-  /*color: #f9fffc;*/
-  /*color: #99ffcc;*/
-  color: #edfff7;
-  /*color: #fffdf4;*/
+  background-color: #edfff7;
   font-family: 'maison', sans-serif;
+  text-align: center;
+}
+
+#blurb {
+  position: absolute;
+  height: 15%;
+  width: 5%;
+  right: 180px;
 }
 
 #menu-btn {
@@ -38,3 +43,17 @@ span, #menu-btn span:before, #menu-btn span:after {
 #menu-btn span:after {
     bottom: -10px;
 }
+
+.cross-button:focus {
+  background-image: none;
+}
+.cross-button:focus::before,
+.cross-button:focus::after{
+   top: 50%;
+ }
+.cross-button:focus::before {
+   transform: translate3d(0,-50%,0) rotate3d(0,0,1,45deg);
+ }
+.cross-button:focus::after {
+   transform: translate3d(0,-50%,0) rotate3d(0,0,1,-45deg);
+ }
