@@ -1,6 +1,12 @@
+html {
+  font-size: 100%
+}
+
 body {
   /*color: #e8fcf1;*/
   background-color: #edfff7;
+  display: flex;
+  flex-flow: row-wrap;
   font-family: 'maison', sans-serif;
   text-align: center;
 }
@@ -10,11 +16,26 @@ img {
   width: 475px;
 }
 
-#blurb {
+header {
+  position: absolute;
+  left: 180px;
+  border-bottom: 4px solid #000;
+  padding-bottom: .5em;
+  padding: 1 10px;
+  margin: 0 -1em;
+}
+
+.header-name {
+  float: left;
+}
+
+.blurb {
   position: absolute;
   height: 15%;
   width: 5%;
   right: 180px;
+  border-left: 4px solid #000;
+  padding-left: 2em;
 }
 
 #menu-btn {
@@ -49,16 +70,8 @@ span, #menu-btn span:before, #menu-btn span:after {
     bottom: -10px;
 }
 
-.cross-button:focus {
-  background-image: none;
-}
-.cross-button:focus::before,
-.cross-button:focus::after{
-   top: 50%;
- }
-.cross-button:focus::before {
-   transform: translate3d(0,-50%,0) rotate3d(0,0,1,45deg);
- }
-.cross-button:focus::after {
-   transform: translate3d(0,-50%,0) rotate3d(0,0,1,-45deg);
- }
+/*#projects {
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: flex-start;
+}*/
