@@ -26,14 +26,18 @@ header {
 }
 
 a {
-  color: #0060B6;
+  color: #0060b6;
   text-decoration: none;
 }
 
 a:hover {
-  color:#00A0C6;
-  text-decoration:none;
-  cursor:pointer;
+  color: #00a0c6;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  color: #faa693;
 }
 
 .header-name {
