@@ -25,6 +25,17 @@ header {
   margin: 0 -1em;
 }
 
+a {
+  color: #0060B6;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#00A0C6;
+  text-decoration:none;
+  cursor:pointer;
+}
+
 .header-name {
   float: left;
 }
@@ -68,6 +79,11 @@ span, #menu-btn span:before, #menu-btn span:after {
 
 #menu-btn span:after {
     bottom: -10px;
+}
+
+.email {
+  height: 65px;
+  width: 65px;
 }
 
 /*#projects {
