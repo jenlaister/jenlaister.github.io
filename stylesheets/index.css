@@ -26,7 +26,7 @@ a:visited {
   color: #faa693;
 }
 
-a::before {
+a.project-link::before {
   content: ' ';
   width: 60px;
   height: 4px;
@@ -67,8 +67,8 @@ h5 {
 
 .blurb {
   position: absolute;
-  height: 15%;
-  width: 5%;
+  height: 225px;
+  width: 75px;
   right: 180px;
   border-left: 4px solid #000;
   padding-left: 2em;
@@ -113,11 +113,11 @@ justify-content: flex-start;
 }*/
 
 .project-blurb {
-  padding: 125px;
+  padding: 75px;
   font-size: 14px;
-  line-height: 28px;
+  line-height: 20px;
   letter-spacing: 0;
-  margin: 0 0 23px;
+  margin: 0 0 20px;
 }
 
 .email {
