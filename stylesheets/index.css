@@ -61,6 +61,10 @@ h5 {
   padding: 0;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .header-name {
   float: left;
 }
@@ -106,11 +110,10 @@ span, #menu-btn span:before, #menu-btn span:after {
     bottom: -10px;
 }
 
-/*#projects {
-display: flex;
-flex-flow: row-wrap;
-justify-content: flex-start;
-}*/
+#projects {
+  display: grid;
+  padding: 125px;
+}
 
 .project-blurb {
   padding: 75px;
