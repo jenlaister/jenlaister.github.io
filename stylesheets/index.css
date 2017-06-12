@@ -47,10 +47,6 @@ header {
   margin: 0 -1em;
 }
 
-img {
-  height: 275px;
-  width: 475px;
-}
 
 h5 {
   font-weight: bold;
@@ -114,6 +110,11 @@ span, #menu-btn span:before, #menu-btn span:after {
   display: grid;
   padding: 125px;
 }
+
+/*img.project {
+  height: 275px;
+  width: 475px;
+}*/
 
 .project-blurb {
   padding: 75px;
