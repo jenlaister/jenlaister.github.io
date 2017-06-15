@@ -61,6 +61,10 @@ ul {
   list-style-type: none;
 }
 
+li {
+  list-style-type: none;
+}
+
 .header-name {
   float: left;
 }
@@ -103,7 +107,17 @@ span, #menu-btn span:before, #menu-btn span:after {
 }
 
 #menu-btn span:after {
-    bottom: -10px;
+  bottom: -10px;
+}
+
+.social-media {
+  display: inline-block;
+  float: left;
+  left: 0px;
+  top: 185px;
+  position: fixed;
+  padding-left: 15px;
+  text-align: center;
 }
 
 #projects {
@@ -111,10 +125,10 @@ span, #menu-btn span:before, #menu-btn span:after {
   padding: 125px;
 }
 
-/*img.project {
+img.project {
   height: 275px;
   width: 475px;
-}*/
+}
 
 .project-blurb {
   padding: 75px;
