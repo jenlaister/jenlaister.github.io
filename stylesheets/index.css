@@ -110,14 +110,24 @@ span, #menu-btn span:before, #menu-btn span:after {
   bottom: -10px;
 }
 
-.social-media {
+.social-nav {
   display: inline-block;
   float: left;
   left: 0px;
   top: 185px;
   position: fixed;
-  padding-left: 15px;
+  padding-left: 10px;
   text-align: center;
+}
+
+.social-nav li {
+  margin: 1em;
+}
+
+
+.social-icons {
+  height: 35px;
+  width: 35px;
 }
 
 #projects {
