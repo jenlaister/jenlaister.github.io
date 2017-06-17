@@ -157,12 +157,12 @@ li {
 }
 
 .menu ul {
-  transform: rotate(90deg) translateY(-2em);
+  transform: rotate(360deg) translateY(-2em);
   transition: 1s all;
 }
 
 .menu:hover ul {
-  transform: rotate(0deg) translateY(-1em);
+  transform: rotate(180deg) translateY(-1em);
 }
 
 .menu li:hover {
@@ -171,7 +171,7 @@ li {
 }
 
 .menu li:nth-of-type(1) {
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
   position: absolute;
   left: -1.2em;
   top: -4.2em;
