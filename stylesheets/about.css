@@ -1038,31 +1038,7 @@ header .logo a {
 }
 
 
-/**
- * responsive:
- * header styles
- * ---------------------------------------------------------------
- */
-@media only screen and (max-width:1024px) {
-	header .top-bar {
-		left: 60px;
-	}
-}
-@media only screen and (max-width:768px) {
-	header .top-bar {
-		left: 50px;
-	}
-}
-@media only screen and (max-width:600px) {
-	header .top-bar {
-		left: 35px;
-	}
-}
-@media only screen and (max-width:400px) {
-	header .top-bar {
-		left: 25px;
-	}
-}
+
 
 
 /**
