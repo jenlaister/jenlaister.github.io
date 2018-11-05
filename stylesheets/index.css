@@ -7,17 +7,20 @@ body {
   /*background-color: #fbeae7;*/
   display: flex;
   flex-flow: row-wrap;
-  font-family: 'maison', sans-serif;
+  /* font-family: 'maison', sans-serif; */
+  font-family: 'Abril Fatface', 'Georgia', serif;
   text-align: center;
 }
 
 a {
   color: #0060b6;
   text-decoration: none;
+  position: relative;
 }
 
 a:hover {
-  color: #00a0c6;
+  /* color: #00a0c6; */
+  color: #dbf320;
   text-decoration: none;
   cursor: pointer;
 }
@@ -41,7 +44,6 @@ a.project-link::before {
 header {
   position: absolute;
   left: 180px;
-  /*border-bottom: 4px solid #000;*/
   padding-bottom: .5em;
   padding: 1 10px;
   margin: 0 -1em;
